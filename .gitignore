@@ -1,0 +1,7 @@
+# envs
+.env
+.venv
+
+# bytecode
+__pycache__/
+.pyc
