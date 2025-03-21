@@ -42,3 +42,52 @@ The project demonstrates principles of **object-oriented design** and mastery of
 
 ## 🏗️ Project Structure
 
+    .
+    ├── color_model.py  # Core classes for color representation and factory
+    ├── utils.py        # utility functions and custom exceptions 
+    ├── main.py         # main program logic (entry point)
+    ├── .env            # some env vars
+    ├── README.md
+    ├── .gitignore
+    └── tests/ 
+        └── test_color_model.py     # Unit tests for core functionality
+
+## 🚀 How to Run the Project
+
+1. ✅ **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/brightest-color-selector.git
+   cd brightest-color-selector
+   ```
+
+2. ✅ **Run tests**  
+   ``` 
+   python -m unittest tests/test_color_model.py
+   ```
+2. ✅ **Run main script**  
+   ``` 
+   pyton main.py
+   ```
+
+## 🔧 Key Features & Concepts
+
+- Object-Oriented Design (OOP) with abstraction, polymorphism and incapsulation for ease of further scaling
+
+- Validation and error/exception handling
+
+## 🛠️ Problems / Things to improve
+
+There are some problems with API of www.csscolorsapi.com. First of all it doesn't handle some unique color shades and can't handle them:
+
+Existing Blue shade #aabbcc
+![alt text](image.png)
+
+But in css colors: 
+
+![alt text](image-1.png)
+
+
+Also, sometimes it returns hex colors in different cases, but it's handable
+
+
+For further development http session can be integrated
